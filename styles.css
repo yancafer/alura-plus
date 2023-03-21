@@ -1,0 +1,32 @@
+/*Formas de declarar variáveis para ser usado em todas as tags*/
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030C;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+}
+
+/*Reseta a página*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.principal {
+    /*Adiciona um background na seção*/
+    background-image: url("assets/Background.png");
+    /*Não repete o background ao decorrer da página*/
+    background-repeat: no-repeat;
+    /*Pega todo o espaçamento do container*/
+    background-size: contain;
+
+}
+
+.container {
+    height: 100vh;
+}
